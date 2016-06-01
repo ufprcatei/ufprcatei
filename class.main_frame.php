@@ -248,10 +248,6 @@
 														<p><img class=\"img-responsive img-circle\" src=\"{$item['photo']}\" alt=\"{$item['name']}\"></p>
 														<h5>{$item['name']}</h5>
 														<h5><small class=\"designation muted\">{$item['role']}</small></h5>
-														<a class=\"btn btn-social btn-facebook\" 	href=\"#\"><i class=\"icon-facebook\"></i></a> 
-														<a class=\"btn btn-social btn-google-plus\" href=\"#\"><i class=\"icon-google-plus\"></i></a> 
-														<a class=\"btn btn-social btn-twitter\" 	href=\"#\"><i class=\"icon-twitter\"></i></a> 
-														<a class=\"btn btn-social btn-linkedin\"	href=\"#\"><i class=\"icon-linkedin\"></i></a>
 													</div>
 											</div>
 										</div>
