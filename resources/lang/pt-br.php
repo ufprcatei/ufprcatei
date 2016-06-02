@@ -2,7 +2,7 @@
 $str = array
 (
 	10000 => "CATEI | Centro Acadêmico de Tecnologia em Informática | UFPR",
-	10001 => "Certificamos que %1 participou da %2 realizada no %3, no dia %4 com carga horária de %5, promovido pela Coordenação do Curso de Tecnologia em Análise de Desenvolvimento de Sistemas da Universidade Federal do Paraná.",
+	10001 => "Certificamos que %1 participou da %2 realizada no %3, no dia %4 com carga horária de %5, promovido pela Coordenação do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas da Universidade Federal do Paraná.",
 	10002 => "Home",
 	10003 => "Sobre",
 	10004 => "Membros",
@@ -17,9 +17,9 @@ $str = array
 	10013 => "Artigos do curso",
 	10014 => "Espaço físico",
 	10015 => "Divulgação de oportunidades de estágio e emprego na área de tecnologia da informação.",
-	10016 => "Promoção de eventos e confraternizações entres os estudantes de análise e desenvolvimento de sistemas.",
+	10016 => "Promoção de eventos e confraternizações entres os estudantes de Análise e Desenvolvimento de Sistemas.",
 	10017 => "Disponibilização e manutenção do espaço físico do centro acadêmico para a utilização dos estudantes do curso.",
-	10018 => "Representação do corpo discente de análise e desenvolvimento de sistemas nas reuniões do colegiado.",
+	10018 => "Representação do corpo discente de Análise e Desenvolvimento de Sistemas nas reuniões do colegiado.",
 	10019 => "Assistência estudantil ao estudante em todos os aspectos relativos a vida acadêmica.",
 	10020 => "Elaboração de artigos universitários para a utilização dos alunos, tais como o mochiTADS e o moleTADS.",
 	10021 => "A chapa Amplitude assumiu a gestão do Centro Acadêmico de Tecnologia em Informação em 09 de março de 2016. Seu principal objetivo é representar a todos os estudantes de Tecnologia em Análise e Desenvolvimento de Sistemas da melhor forma possível.",

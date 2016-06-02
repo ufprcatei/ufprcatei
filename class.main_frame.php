@@ -55,9 +55,8 @@
 						<meta charset="<?=$this->getCharset();?>">
 						<meta name="viewport" content="width=device-width, initial-scale=1.0">
 						<meta name="description" content="">
-						
-						<meta property="og:image" content="<?=getImgSrc("slider", "bg1");?>"/>
 						<meta name="author" content="">
+						<meta property="og:image" content="<?=getImgSrc("slider", "bg1");?>"/>
 						<title><?=$this->getTitleWindow();?></title>
 						<?php
 							$this->loadHeadResource();
@@ -243,11 +242,16 @@
 									$active = $isFirst ? "active" : "";
 									$isFirst = false;
 									
+									$facebook = (!empty($item['facebook']) ? "https://www.facebook.com/".$item['facebook'] : "");
 									echo "
 										<div class=\"item {$active}\">
 											<div class=\"col-md-4\">
 													<div class=\"center\">
-														<p><img class=\"img-responsive img-circle\" src=\"{$item['photo']}\" alt=\"{$item['name']}\"></p>
+														<p>
+															".(!empty($facebook)? "<a href=\"{$facebook}\" target=\"_blank\">" : "")."
+																<img class=\"img-responsive img-circle\" src=\"{$item['photo']}\" alt=\"{$item['name']}\" title=\"{$item['name']}\">
+															".(!empty($facebook)? "</a>" : "")."
+														</p>
 														<h5>{$item['name']}</h5>
 														<h5><small class=\"designation muted\">{$item['role']}</small></h5>
 													</div>
@@ -288,8 +292,8 @@
 		function mountContactContent($classColor = "pomegranate")
 		{
 			?>
-				<a class="anchor" id="anchor_contact-page"></a>
 				<?=$this->mountMapContent($classColor);?>
+				<a class="anchor" id="anchor_contact-page"></a>
 				<?=$this->mountContactPageContent($classColor);?>
 			<?php
 		}
