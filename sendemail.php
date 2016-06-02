@@ -11,8 +11,15 @@
     $email_from = $email;
     $email_to = 'contato@ufprcatei-novo.16mb.com';
 
-    $body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message;
-
+	$html = file_get_contents('email.php');
+	$content = "<h1>$subject</h1>
+			<p>$message</p>
+			<p>$name</p>
+			<p>$email</p>";
+			
+	$body = str_replace("<#CONTENT#>", $content, $html);
+	
+	
 	$success = mail($email_to, $subject, $body, 'From: <'.$email_from.'>');
 	
 	$status = array(
