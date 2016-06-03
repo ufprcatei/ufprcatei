@@ -9,7 +9,7 @@
     $message 	= formatField($_REQUEST['message']); 
 
     $email_from = $email;
-    $email_to = 'contato@ufprcatei-novo.16mb.com';
+    $email_to = 'contato@ufprcatei.com.br';
 
     $body = 'Nome: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Assunto: ' . $subject . "\n\n" . 'Mensagem: ' . $message;
 	
