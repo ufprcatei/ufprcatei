@@ -24,3 +24,6 @@ Razer A. Nizer Rojas Montaño	razer@ufpr.br
 Roberto Tadeu Raittz	        raittz@ufpr.br	raittz@gmail.com	
 Sandramara S. K. de Paula S.	sskusano@ufpr.br	sskusano@gmail.com	
 Silvana Maria Carbonera	      silvana.carbonera@ufpr.br	silvana.carbonera@gmail.com	
+
+
+https://docs.google.com/spreadsheets/d/1CcAQLfqVYKwl9CR5pBk7ertcbQj9hNncY9qSTGVxovM/edit#gid=0
