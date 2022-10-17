@@ -1,14 +1,3 @@
-
-                                                                                                                                                             
-
-████████╗░█████╗░██████╗░░██████╗
-╚══██╔══╝██╔══██╗██╔══██╗██╔════╝
-░░░██║░░░███████║██║░░██║╚█████╗░
-░░░██║░░░██╔══██║██║░░██║░╚═══██╗
-░░░██║░░░██║░░██║██████╔╝██████╔╝
-░░░╚═╝░░░╚═╝░░╚═╝╚═════╝░╚═════╝░
-
-
 [E-mail dos professores](https://github.com/ufprcatei/ufprcatei/blob/main/email-professores.md)<br/>
 [Horas formativas](https://github.com/ufprcatei/ufprcatei/blob/main/horas-formativas.md)<br/>
 [Estágio](https://github.com/ufprcatei/ufprcatei/blob/main/estagio.md)<br/>
